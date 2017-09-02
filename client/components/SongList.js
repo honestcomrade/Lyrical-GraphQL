@@ -38,7 +38,7 @@ class SongList extends Component {
     return(
       <div>
         <ul className="collection">
-          { this.renderSongs() }  
+          { this.renderSongs() } 
         </ul>
         <Link to="/songs/new" className="waves-effect waves-light btn right">
           <i className="material-icons right">add</i>Add Song
