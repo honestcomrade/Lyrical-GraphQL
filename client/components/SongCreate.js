@@ -26,8 +26,8 @@ class SongCreate extends Component {
     return (
       <div>
         <div className="row">
-          <Link to="/" className="waves-effect btn left goback">
-            <i className="material-icons left">navigate_before</i>Go Back
+          <Link to="/" className="waves-effect btn left buttone">
+            <i className="material-icons left go-back">navigate_before</i>Go Back
           </Link>
         </div>
         <div className="row">

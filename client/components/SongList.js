@@ -33,12 +33,19 @@ class SongList extends Component {
     }
     return(
       <div>
-        <ul className="collection">
-          { this.renderSongs() } 
-        </ul>
-        <Link to="/songs/new" className="waves-effect waves-light btn right">
-          <i className="material-icons right">add</i>Add Song
-        </Link>
+        <div>
+          <h4 className="heading-border">
+            Check out the latest songs
+          </h4>
+        </div>
+        <div>
+          <ul className="collection">
+            { this.renderSongs() } 
+          </ul>
+          <Link to="/songs/new" className="waves-effect waves-light btn right buttontwo">
+            <i className="material-icons right plus-button">add</i>New Song
+          </Link>
+        </div>
       </div>
     );
   };
