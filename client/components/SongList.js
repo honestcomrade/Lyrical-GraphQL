@@ -29,11 +29,7 @@ class SongList extends Component {
     
   render() {
     if(this.props.data.loading) {
-      return (
-        <div>
-          Loading
-        </div>
-      )
+      return <div></div>;
     }
     return(
       <div>
