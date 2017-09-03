@@ -47,12 +47,12 @@ class SongCreate extends Component {
   
 }
 
-const mutation = gql `
-mutation AddSong($title: String){ 
-  addSong(title: $title) {
-    title
+const mutation = gql`
+  mutation AddSong($title: String){ 
+    addSong(title: $title) {
+      title
+    }
   }
-}
 `;
 
 export default graphql(mutation)(SongCreate);
