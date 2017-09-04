@@ -3,8 +3,11 @@ import gql from 'graphql-tag';
 import { graphql } from 'react-apollo';
 
 class LyricList extends Component {
+  
   onLike(id) {
-    // this.props.mutation(id) {
+    this.props.mutate({
+      variables: { id }
+    });
   }
 
   renderLyrics() {
