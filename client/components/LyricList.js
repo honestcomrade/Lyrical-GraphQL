@@ -41,4 +41,4 @@ const mutation = gql`
   }
 `;
 
-export default LyricList;
+export default graphql(mutation)(LyricList);
